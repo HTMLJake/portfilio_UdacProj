@@ -29,8 +29,6 @@ html, body {
 
 .title {
     text-align: right;
-    padding 0;
-    
 }
 
 .title h1 {
@@ -109,4 +107,8 @@ a {
     text-decoration: none;
     color: #2d3c49;
     margin: 0;
+}
+
+.center {
+    text-align: center;
 }
