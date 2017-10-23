@@ -101,11 +101,22 @@ hr {
     color: #333333;
 }
 
-.featured-work-img {
+.featured-default {
     width: 100%;
     height: 20vw;
     margin: 0;
     background-image: url(img/placeholder.png);
     background-position: 50% 50%;
     background-size: cover;
+}
+
+.quantarium {
+    background-image: url(img/quantarium.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.game-art {
+    background-image: url(img/pixel-art.png);
+    background-repeat: no-repeat;
 }
