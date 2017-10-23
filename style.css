@@ -73,7 +73,7 @@ hr {
 .main-img {
     width: 100%;
     height: 50vw;
-    background-image: linear-gradient(45deg, #1293dd77, #ca2b2b77), url(img/snowy-mountain.jpg);
+    background-image: url(img/snowy-mountain.jpg);
     background-position: 100% 100%;
     background-size: cover;
 }
