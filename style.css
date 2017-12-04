@@ -97,7 +97,7 @@ hr {
 .featured-item-title {
     text-align: center;
     font-weight: 300;
-    font-size: 300%;
+    font-size: 3vw;
     margin: 0;
 }
 
@@ -144,12 +144,8 @@ hr {
 
 /* footer */
 
-footer {
-    height: 100px;
-    background-color: #24a4bb
-}
-
 .copywrite {
-    padding: 50px;
+    font-size: 1.2vw;
+    padding: 3vw;
     background-color: #24a4bb
 }
