@@ -9,8 +9,12 @@
 </head>
 <body>
     <section class="container">
-        <header class="full-width">
-            <img src="img/jperrydev-logo.png" class="header-img" alt="Perry Design Logo" >
+        <header class="full-width header">
+            <div class="header-img">
+                <div id="logo" onclick="PlayAnimation()"></div>
+                <!-- <img src="img/jperrydev-logo.png" class="header-img" alt="Perry Design Logo" > -->
+
+            </div>
             <div class="title">
                 <h1 class="name">Jacob Perry</h1>
                 <h2 class="subtitle">Front-End Wizard</h2>
@@ -72,6 +76,21 @@
 
                     </div>
                 </li>
+
+                <li class="featured-work">
+                    <a href="http://jperrydev.com/cat-clicker">
+                        <figure class="featured-default"></figure>
+                    </a>
+                    <p class="featured-item-title">Cat Clicker</p>
+                    <div class="centered">
+                        <a href="https://github.com/HTMLJake/cat-clicke">
+                            <p>github.com/HTMLJake/arcade-game</p>
+                        </a>
+
+                    </div>
+                </li>
+
+
             </ul>
         </section>
 
@@ -81,5 +100,11 @@
             </footer>
         </section>
     </section>
+
+
+    <script src="js/bodymovin.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
+
 </body>
 </html>

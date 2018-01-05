@@ -18,6 +18,11 @@ body {
 
 .full-width {
     width: 100vw;
+    
+}
+
+.header {
+    display: flex;
     justify-content: space-between;
 }
 
@@ -53,8 +58,13 @@ p {
 }
 
 .header-img {
-    width: 15%;
+    display: flex;
+    width: 15vw;
     margin: 3%;
+}
+
+#logo {
+    width: 250%;
 }
 
 hr {
@@ -110,7 +120,7 @@ hr {
 }
 
 .featured-work {
-    width: 30%;
+    width: 300px;
 }
 
 .featured-work a {
